@@ -1,0 +1,25 @@
+Each file in the project contains comments detailing what specific functions do.
+
+Model:
+
+1. Access modifiers: public, internal, and private.
+2. init function
+3. Dictionaries
+4. iCloud Storage
+
+
+MasterViewController:
+
+1. inheritance (UITableViewController)
+2. overriding functions
+3. UITableViewController buttons
+4. Different types of taps
+5. Alert Controllers
+6. Share sheet
+7. Segues
+8. URL encoding
+
+
+DetailViewController:
+
+1. UIWebView

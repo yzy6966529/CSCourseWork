@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BFDF8401F980674006C93EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFDF83F1F980674006C93EB /* AppDelegate.swift */; };
+		6BFDF8421F980674006C93EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFDF8411F980674006C93EB /* ViewController.swift */; };
+		6BFDF8451F980674006C93EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BFDF8431F980674006C93EB /* Main.storyboard */; };
+		6BFDF8471F980674006C93EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BFDF8461F980674006C93EB /* Assets.xcassets */; };
+		6BFDF84A1F980674006C93EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BFDF8481F980674006C93EB /* LaunchScreen.storyboard */; };
+		6BFDF8521F980902006C93EB /* Eliza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFDF8511F980902006C93EB /* Eliza.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6BFDF83C1F980674006C93EB /* ElizaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElizaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BFDF83F1F980674006C93EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6BFDF8411F980674006C93EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6BFDF8441F980674006C93EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BFDF8461F980674006C93EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BFDF8491F980674006C93EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BFDF84B1F980674006C93EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BFDF8511F980902006C93EB /* Eliza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Eliza.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BFDF8391F980674006C93EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BFDF8331F980674006C93EB = {
+			isa = PBXGroup;
+			children = (
+				6BFDF83E1F980674006C93EB /* ElizaApp */,
+				6BFDF83D1F980674006C93EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BFDF83D1F980674006C93EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BFDF83C1F980674006C93EB /* ElizaApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BFDF83E1F980674006C93EB /* ElizaApp */ = {
+			isa = PBXGroup;
+			children = (
+				6BFDF83F1F980674006C93EB /* AppDelegate.swift */,
+				6BFDF8411F980674006C93EB /* ViewController.swift */,
+				6BFDF8431F980674006C93EB /* Main.storyboard */,
+				6BFDF8511F980902006C93EB /* Eliza.swift */,
+				6BFDF8461F980674006C93EB /* Assets.xcassets */,
+				6BFDF8481F980674006C93EB /* LaunchScreen.storyboard */,
+				6BFDF84B1F980674006C93EB /* Info.plist */,
+			);
+			path = ElizaApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BFDF83B1F980674006C93EB /* ElizaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BFDF84E1F980674006C93EB /* Build configuration list for PBXNativeTarget "ElizaApp" */;
+			buildPhases = (
+				6BFDF8381F980674006C93EB /* Sources */,
+				6BFDF8391F980674006C93EB /* Frameworks */,
+				6BFDF83A1F980674006C93EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElizaApp;
+			productName = ElizaApp;
+			productReference = 6BFDF83C1F980674006C93EB /* ElizaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BFDF8341F980674006C93EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "A290/A590 Fall 2017 - zy7";
+				TargetAttributes = {
+					6BFDF83B1F980674006C93EB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6BFDF8371F980674006C93EB /* Build configuration list for PBXProject "ElizaApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BFDF8331F980674006C93EB;
+			productRefGroup = 6BFDF83D1F980674006C93EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BFDF83B1F980674006C93EB /* ElizaApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BFDF83A1F980674006C93EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BFDF84A1F980674006C93EB /* LaunchScreen.storyboard in Resources */,
+				6BFDF8471F980674006C93EB /* Assets.xcassets in Resources */,
+				6BFDF8451F980674006C93EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BFDF8381F980674006C93EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BFDF8521F980902006C93EB /* Eliza.swift in Sources */,
+				6BFDF8421F980674006C93EB /* ViewController.swift in Sources */,
+				6BFDF8401F980674006C93EB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6BFDF8431F980674006C93EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BFDF8441F980674006C93EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6BFDF8481F980674006C93EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BFDF8491F980674006C93EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BFDF84C1F980674006C93EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BFDF84D1F980674006C93EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BFDF84F1F980674006C93EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ElizaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.indiana.cs.a290zy7.ElizaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6BFDF8501F980674006C93EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ElizaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.indiana.cs.a290zy7.ElizaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BFDF8371F980674006C93EB /* Build configuration list for PBXProject "ElizaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BFDF84C1F980674006C93EB /* Debug */,
+				6BFDF84D1F980674006C93EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BFDF84E1F980674006C93EB /* Build configuration list for PBXNativeTarget "ElizaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BFDF84F1F980674006C93EB /* Debug */,
+				6BFDF8501F980674006C93EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BFDF8341F980674006C93EB /* Project object */;
+}

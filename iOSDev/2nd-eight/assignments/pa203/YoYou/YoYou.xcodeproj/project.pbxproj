@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B4E02161FBA687000B6C3EC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B4E02151FBA687000B6C3EC /* GoogleService-Info.plist */; };
+		6B4E02191FBB5CA300B6C3EC /* AuthProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4E02181FBB5CA300B6C3EC /* AuthProvider.swift */; };
+		6B4E021B1FBBBD4900B6C3EC /* DBProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4E021A1FBBBD4900B6C3EC /* DBProvider.swift */; };
+		6B4E021D1FBBBEF700B6C3EC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4E021C1FBBBEF700B6C3EC /* Constants.swift */; };
+		6BCA56261FB385FA00B1BD68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCA56251FB385FA00B1BD68 /* AppDelegate.swift */; };
+		6BCA562B1FB385FA00B1BD68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BCA56291FB385FA00B1BD68 /* Main.storyboard */; };
+		6BCA562E1FB385FA00B1BD68 /* YoYou.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6BCA562C1FB385FA00B1BD68 /* YoYou.xcdatamodeld */; };
+		6BCA56301FB385FA00B1BD68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BCA562F1FB385FA00B1BD68 /* Assets.xcassets */; };
+		6BCA56331FB385FA00B1BD68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BCA56311FB385FA00B1BD68 /* LaunchScreen.storyboard */; };
+		6BCA563E1FB387E900B1BD68 /* SigninVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCA563D1FB387E900B1BD68 /* SigninVC.swift */; };
+		6BCA56401FB3899800B1BD68 /* contactsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCA563F1FB3899800B1BD68 /* contactsVC.swift */; };
+		B93948ECDDC00C0849D9B76B /* Pods_YoYou.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED25BC6520E0D8D923134E3F /* Pods_YoYou.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F84A7BD9E6A4A30F2230816 /* Pods-YoYou.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoYou.release.xcconfig"; path = "Pods/Target Support Files/Pods-YoYou/Pods-YoYou.release.xcconfig"; sourceTree = "<group>"; };
+		6B4E02151FBA687000B6C3EC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6B4E02181FBB5CA300B6C3EC /* AuthProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthProvider.swift; sourceTree = "<group>"; };
+		6B4E021A1FBBBD4900B6C3EC /* DBProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBProvider.swift; sourceTree = "<group>"; };
+		6B4E021C1FBBBEF700B6C3EC /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6BCA56221FB385FA00B1BD68 /* YoYou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoYou.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BCA56251FB385FA00B1BD68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6BCA562A1FB385FA00B1BD68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BCA562D1FB385FA00B1BD68 /* YoYou.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YoYou.xcdatamodel; sourceTree = "<group>"; };
+		6BCA562F1FB385FA00B1BD68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BCA56321FB385FA00B1BD68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BCA56341FB385FA00B1BD68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BCA563D1FB387E900B1BD68 /* SigninVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigninVC.swift; sourceTree = "<group>"; };
+		6BCA563F1FB3899800B1BD68 /* contactsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = contactsVC.swift; sourceTree = "<group>"; };
+		B123612F999D64859464229B /* Pods-YoYou.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoYou.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YoYou/Pods-YoYou.debug.xcconfig"; sourceTree = "<group>"; };
+		ED25BC6520E0D8D923134E3F /* Pods_YoYou.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YoYou.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BCA561F1FB385FA00B1BD68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B93948ECDDC00C0849D9B76B /* Pods_YoYou.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B4E02171FBB5C7800B6C3EC /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				6B4E02181FBB5CA300B6C3EC /* AuthProvider.swift */,
+				6B4E021A1FBBBD4900B6C3EC /* DBProvider.swift */,
+			);
+			name = Plugin;
+			sourceTree = "<group>";
+		};
+		6BCA56191FB385FA00B1BD68 = {
+			isa = PBXGroup;
+			children = (
+				6BCA56241FB385FA00B1BD68 /* YoYou */,
+				6BCA56231FB385FA00B1BD68 /* Products */,
+				CABC945914068B5D6D5DAC66 /* Pods */,
+				EF3E4E869B29738C55C2F65B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6BCA56231FB385FA00B1BD68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BCA56221FB385FA00B1BD68 /* YoYou.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BCA56241FB385FA00B1BD68 /* YoYou */ = {
+			isa = PBXGroup;
+			children = (
+				6B4E02171FBB5C7800B6C3EC /* Plugin */,
+				6BCA563C1FB386E600B1BD68 /* Controller */,
+				6BCA563B1FB386DE00B1BD68 /* View */,
+				6BCA563A1FB386D000B1BD68 /* Model */,
+				6BCA56251FB385FA00B1BD68 /* AppDelegate.swift */,
+				6BCA56291FB385FA00B1BD68 /* Main.storyboard */,
+				6BCA562F1FB385FA00B1BD68 /* Assets.xcassets */,
+				6BCA56311FB385FA00B1BD68 /* LaunchScreen.storyboard */,
+				6BCA56341FB385FA00B1BD68 /* Info.plist */,
+				6BCA562C1FB385FA00B1BD68 /* YoYou.xcdatamodeld */,
+				6B4E02151FBA687000B6C3EC /* GoogleService-Info.plist */,
+			);
+			path = YoYou;
+			sourceTree = "<group>";
+		};
+		6BCA563A1FB386D000B1BD68 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6B4E021C1FBBBEF700B6C3EC /* Constants.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6BCA563B1FB386DE00B1BD68 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6BCA563C1FB386E600B1BD68 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6BCA563D1FB387E900B1BD68 /* SigninVC.swift */,
+				6BCA563F1FB3899800B1BD68 /* contactsVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CABC945914068B5D6D5DAC66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B123612F999D64859464229B /* Pods-YoYou.debug.xcconfig */,
+				0F84A7BD9E6A4A30F2230816 /* Pods-YoYou.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF3E4E869B29738C55C2F65B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED25BC6520E0D8D923134E3F /* Pods_YoYou.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BCA56211FB385FA00B1BD68 /* YoYou */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BCA56371FB385FA00B1BD68 /* Build configuration list for PBXNativeTarget "YoYou" */;
+			buildPhases = (
+				EA535B058F7BC8268BBB2FF2 /* [CP] Check Pods Manifest.lock */,
+				6BCA561E1FB385FA00B1BD68 /* Sources */,
+				6BCA561F1FB385FA00B1BD68 /* Frameworks */,
+				6BCA56201FB385FA00B1BD68 /* Resources */,
+				FDB37687F34AB9ED13A5263F /* [CP] Embed Pods Frameworks */,
+				2BE0200FAD40FF925C2646AF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YoYou;
+			productName = YoYou;
+			productReference = 6BCA56221FB385FA00B1BD68 /* YoYou.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BCA561A1FB385FA00B1BD68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "A290/A590 Fall 2017 - zy7";
+				TargetAttributes = {
+					6BCA56211FB385FA00B1BD68 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = D8A5MJP33K;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6BCA561D1FB385FA00B1BD68 /* Build configuration list for PBXProject "YoYou" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BCA56191FB385FA00B1BD68;
+			productRefGroup = 6BCA56231FB385FA00B1BD68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BCA56211FB385FA00B1BD68 /* YoYou */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BCA56201FB385FA00B1BD68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BCA56331FB385FA00B1BD68 /* LaunchScreen.storyboard in Resources */,
+				6B4E02161FBA687000B6C3EC /* GoogleService-Info.plist in Resources */,
+				6BCA56301FB385FA00B1BD68 /* Assets.xcassets in Resources */,
+				6BCA562B1FB385FA00B1BD68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2BE0200FAD40FF925C2646AF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YoYou/Pods-YoYou-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA535B058F7BC8268BBB2FF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YoYou-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDB37687F34AB9ED13A5263F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YoYou/Pods-YoYou-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YoYou/Pods-YoYou-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BCA561E1FB385FA00B1BD68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BCA562E1FB385FA00B1BD68 /* YoYou.xcdatamodeld in Sources */,
+				6BCA563E1FB387E900B1BD68 /* SigninVC.swift in Sources */,
+				6B4E02191FBB5CA300B6C3EC /* AuthProvider.swift in Sources */,
+				6BCA56261FB385FA00B1BD68 /* AppDelegate.swift in Sources */,
+				6B4E021D1FBBBEF700B6C3EC /* Constants.swift in Sources */,
+				6B4E021B1FBBBD4900B6C3EC /* DBProvider.swift in Sources */,
+				6BCA56401FB3899800B1BD68 /* contactsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6BCA56291FB385FA00B1BD68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BCA562A1FB385FA00B1BD68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6BCA56311FB385FA00B1BD68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BCA56321FB385FA00B1BD68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BCA56351FB385FA00B1BD68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BCA56361FB385FA00B1BD68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BCA56381FB385FA00B1BD68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B123612F999D64859464229B /* Pods-YoYou.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D8A5MJP33K;
+				INFOPLIST_FILE = YoYou/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.indiana.cs.a290zy7.YoYou;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6BCA56391FB385FA00B1BD68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F84A7BD9E6A4A30F2230816 /* Pods-YoYou.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D8A5MJP33K;
+				INFOPLIST_FILE = YoYou/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.indiana.cs.a290zy7.YoYou;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BCA561D1FB385FA00B1BD68 /* Build configuration list for PBXProject "YoYou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BCA56351FB385FA00B1BD68 /* Debug */,
+				6BCA56361FB385FA00B1BD68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BCA56371FB385FA00B1BD68 /* Build configuration list for PBXNativeTarget "YoYou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BCA56381FB385FA00B1BD68 /* Debug */,
+				6BCA56391FB385FA00B1BD68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6BCA562C1FB385FA00B1BD68 /* YoYou.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6BCA562D1FB385FA00B1BD68 /* YoYou.xcdatamodel */,
+			);
+			currentVersion = 6BCA562D1FB385FA00B1BD68 /* YoYou.xcdatamodel */;
+			path = YoYou.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6BCA561A1FB385FA00B1BD68 /* Project object */;
+}

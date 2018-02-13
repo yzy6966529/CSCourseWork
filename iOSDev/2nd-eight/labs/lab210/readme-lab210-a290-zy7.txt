@@ -1,0 +1,1 @@
+I tried core data in “contact view controller” in this lab.

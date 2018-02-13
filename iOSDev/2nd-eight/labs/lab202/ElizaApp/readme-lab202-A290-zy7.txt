@@ -1,0 +1,1 @@
+Zhongyu YangApp can get userÕs input and answer it.You can input your todayÕs feeling
